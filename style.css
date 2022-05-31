@@ -61,7 +61,7 @@ h2{
 }
 .box{
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.521);
+  background-color: rgba(0, 0, 0, 0.329);
   width: 100%;
   height: 100%;
   z-index: 998;
@@ -70,13 +70,14 @@ h2{
 }
 
 
+
   img {
     --duration: 40s;
     --name: float-up-1;
     position: absolute;
     top: 0;
     left: 0;
-    height: 37%;
+    height: 25%;
     transform: translateY(200vh);
     animation: var(--name) var(--duration) linear infinite;
     box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.5);
